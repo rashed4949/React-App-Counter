@@ -3,7 +3,7 @@ import Counter from "./counter";
 
 class Counters extends Component {
   render() {
-    const { onReset, counters, onDelete, onIncrement, onDecrement } =
+    const { onReset, counters, onDelete, onDecrement, onIncrement } =
       this.props;
     return (
       <div>
